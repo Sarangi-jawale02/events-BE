@@ -1,6 +1,6 @@
 let { MongoClient, ObjectId } = require("mongodb");
 const{addController} = require("../controllers/bookingController");
- let url =process.env.MONGO_URl;
+ let url =process.env.MONGO_URL;
 
 let addBooking =(obj,res)=>
 {
